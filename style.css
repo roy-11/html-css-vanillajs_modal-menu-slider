@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+:root {
+  --modal-duration: 1s;
+  --primary-color: #30336b;
+  --secondary-color: #be2eed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+nav {
+  background-color: var(--primary-color);
+  border-right: solid 0.2rem rgba(200, 200, 200, 0.1);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20rem;
+  height: 100vh;
+  z-index: 100;
+}
+
+nav .logo {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+nav .logo img {
+  height: 7.5rem;
+  width: 7.5rem;
+  border-radius: 50px;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+nav ul li {
+  padding: 2rem;
+  border-bottom: solid 0.2rem rgba(200, 200, 200, 0.1);
+}
+
+nav ul li:first-of-type {
+  border-top: solid 0.2rem rgba(200, 200, 200, 0.1);
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
